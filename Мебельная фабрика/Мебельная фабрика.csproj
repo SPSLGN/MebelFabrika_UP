@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{746CAB52-F72C-47D1-83C9-2EC890C109BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Мебельная_фабрика</RootNamespace>
+    <AssemblyName>Мебельная фабрика</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Комплектующие.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Комплектующие.Designer.cs">
+      <DependentUpon>Комплектующие.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Продажи.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Продажи.Designer.cs">
+      <DependentUpon>Продажи.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Изготовление.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Изготовление.Designer.cs">
+      <DependentUpon>Изготовление.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Мебельная_фабрикаDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Мебельная_фабрикаDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Регистрация.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Регистрация.Designer.cs">
+      <DependentUpon>Регистрация.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Админ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Админ.Designer.cs">
+      <DependentUpon>Админ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Покупатель.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Покупатель.Designer.cs">
+      <DependentUpon>Покупатель.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Вход.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Вход.Designer.cs">
+      <DependentUpon>Вход.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Админ.resx">
+      <DependentUpon>Админ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Вход.resx">
+      <DependentUpon>Вход.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Изготовление.resx">
+      <DependentUpon>Изготовление.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Комплектующие.resx">
+      <DependentUpon>Комплектующие.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Покупатель.resx">
+      <DependentUpon>Покупатель.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Продажи.resx">
+      <DependentUpon>Продажи.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Регистрация.resx">
+      <DependentUpon>Регистрация.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Мебельная_фабрикаDataSet.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet1.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet1.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet10.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet10.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet2.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet2.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet3.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet3.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet4.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet4.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet5.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet5.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet6.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet6.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet7.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet7.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet8.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet8.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet9.xsc">
+      <DependentUpon>Мебельная_фабрикаDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Мебельная_фабрикаDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Мебельная_фабрикаDataSet9.xss">
+      <DependentUpon>Мебельная_фабрикаDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
